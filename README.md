@@ -1,132 +1,165 @@
-# Credit_Prediction_Project
+# 📊 Credit Approval Prediction Project
 
-# Credit Risk Analysis Project for Brazil 🇧🇷💳
+This project aims to develop a machine learning model capable of predicting whether a customer is eligible for credit based on their financial and personal data. The goal is to support financial institutions in decision-making, reducing default rates and improving the accuracy of credit analysis.
 
-This project was developed to apply Data Science skills in credit risk analysis using the **Brazilian Credit Scoring Dataset**. The analysis was done in Google Colab, focusing on data cleaning, statistical exploration, visualization, predictive modeling, and performance evaluation.
+## 🛠️ Technologies and Tools
 
-## 📌 Objectives
+- **Language:** Python  
+- **Data Analysis Libraries:** Pandas, NumPy  
+- **Data Visualization:** Matplotlib, Seaborn  
+- **Machine Learning:** Scikit-learn  
+- **Environment:** Google Colab / Jupyter Notebook
 
-- Clean and prepare data for analysis
-- Explore relevant patterns in credit data
-- Build a predictive model for default risk
-- Evaluate models using appropriate metrics
-- Produce visual insights and useful conclusions for decision making
+## 🔍 Project Workflow
 
-## 📂 Dataset
+1. **Business and Data Understanding**  
+   - Problem definition  
+   - Exploratory Data Analysis (EDA)  
 
-- **Source:** [Kaggle - Brazilian Credit Scoring Dataset](https://www.kaggle.com/datasets/laotse/credit-risk-dataset)
-- **Size:** ~40 thousand records
-- **Description:** Client data including income, marital status, education level, age, etc.
+2. **Data Preprocessing**  
+   - Handling missing values  
+   - Encoding categorical variables  
+   - Data scaling and normalization  
 
-## ⚙️ Technologies Used
+3. **Model Building**  
+   - Testing different algorithms (Decision Tree, Random Forest, Logistic Regression, etc.)  
+   - Model evaluation using Accuracy, Precision, Recall, and F1-Score  
 
-- Python (Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn)
-- Google Colab
-- Supervised Machine Learning (Logistic Regression, Random Forest, etc.)
-- FastAPI for API deployment
+4. **Conclusion and Insights**  
+   - Analysis of results  
+   - Improvement points and next steps  
 
-## 📈 Key Steps
+## 📈 Results
 
-1. **Data loading and cleaning**
-2. **Exploratory Data Analysis (EDA)** with charts and statistics
-3. **Creating dummy variables** and transforming columns
-4. **Training predictive models**
-5. **Evaluation using metrics such as Accuracy, ROC AUC, and Confusion Matrix**
-6. **API implementation to serve the model**
+The model achieved satisfactory performance in classifying whether customers are eligible for credit. Further improvements can be made using advanced techniques such as data balancing, feature engineering, and hyperparameter tuning.
 
-## 📊 Results
-
-The Random Forest model showed the best performance with good generalization ability. The analysis revealed interesting patterns related to the profile of clients with higher default risk.
-
-## 💡 Insights
-
-- Age and Income strongly correlate with credit risk.
-- Certain marital statuses and education levels influence default probability.
-- Ensemble models significantly improve predictive performance.
-
-## ⚠️ Important: Model File
-
-The trained model file `credit_model.pkl` **is not included in this repository** due to its large size.
-
-To run the API locally, please download the model file manually from this link:
-
-> [Download link for credit_model.pkl] (add your Google Drive or other file hosting link here)
-
-Then place the file in the project root folder.
-
-## 🚀 How to Run the API Locally
+## 🚀 How to Run the Project
 
 1. Clone the repository:
 
 ```bash
 git clone https://github.com/robertaNicolle/Projeto-Previsao_de_Credito.git
-cd Projeto-Previsao_de_Credito
+Install dependencies (optional if using Colab):
 
+bash
+Copy
+Edit
+pip install -r requirements.txt
+Run the notebook:
 
-***************************************
+Open the .ipynb file in Google Colab or Jupyter Notebook.
 
-# Projeto-Previsao_de_Credito
+💡 Future Improvements
+Apply data balancing techniques (SMOTE, Under/Over Sampling)
 
-# Projeto de Análise de Crédito no Brasil 🇧🇷💳
+Test Gradient Boosting models (XGBoost, LightGBM, CatBoost)
 
-Este projeto foi desenvolvido com o objetivo de aplicar habilidades de Ciência de Dados na análise de risco de crédito utilizando o **Brazilian Credit Scoring Dataset**. A análise foi feita no Google Colab, com foco na limpeza de dados, exploração estatística, visualização, modelagem preditiva e avaliação de desempenho.
+Deploy the solution (API or Dashboard)
 
-## 📌 Objetivos
+Implement model monitoring in production
 
-- Limpar e preparar os dados para análise
-- Explorar padrões relevantes nos dados de crédito
-- Criar um modelo preditivo de inadimplência
-- Avaliar o desempenho dos modelos usando métricas adequadas
-- Produzir insights visuais e conclusões úteis para tomada de decisão
+🧠 Key Learnings
+Through this project, I deepened my knowledge in:
 
-## 📂 Dataset
+Data cleaning and preprocessing
 
-- **Fonte:** [Kaggle - Brazilian Credit Scoring Dataset](https://www.kaggle.com/datasets/laotse/credit-risk-dataset)
-- **Tamanho:** ~40 mil registros
-- **Descrição:** Dados de clientes com informações como renda, estado civil, escolaridade, idade, etc.
+Feature engineering
 
-## ⚙️ Tecnologias Utilizadas
+Supervised machine learning techniques
 
-- Python (Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn)
-- Google Colab
-- Machine Learning supervisionado (Regressão Logística, Random Forest, etc.)
-- FastAPI para deploy da API de previsão
+Model evaluation and interpretation
 
-## 📈 Principais Etapas
+👩‍💻 About Me
+I'm Roberta Nicolle, a Data Science student passionate about solving problems using data and AI.
 
-1. **Carregamento e limpeza dos dados**
-2. **Análise exploratória (EDA)** com gráficos e estatísticas
-3. **Criação de variáveis dummies** e transformação de colunas
-4. **Treinamento de modelos preditivos**
-5. **Avaliação por métricas como Accuracy, ROC AUC e Matriz de Confusão**
-6. **Implementação da API para disponibilizar o modelo**
+🔗 LinkedIn: https://www.linkedin.com/in/roberta-soares-dev/
 
-## 📊 Resultados
+🧠 GitHub: https://github.com/robertaNicolle
 
-O modelo Random Forest apresentou o melhor desempenho com boa capacidade de generalização. A análise revelou padrões interessantes sobre o perfil de clientes com maior risco de inadimplência.
+📫 Contact: robertasoares.dev@gmail.com
 
-## 💡 Insights
+**************************************************************
+## 🇧🇷 README em Português
 
-- Idade e Renda são fortemente correlacionadas com o risco de crédito.
-- Certos estados civis e níveis de escolaridade influenciam na probabilidade de inadimplência.
-- O uso de modelos de ensemble melhora significativamente o desempenho preditivo.
+```markdown
+# 📊 Projeto de Previsão de Concessão de Crédito
 
-## ⚠️ Importante: Arquivo do Modelo
+Este projeto tem como objetivo desenvolver um modelo preditivo de concessão de crédito, capaz de identificar se um cliente está apto ou não a receber crédito, com base em seus dados financeiros e pessoais. A proposta é auxiliar instituições financeiras na tomada de decisão, reduzindo inadimplência e aumentando a assertividade na análise de crédito.
 
-O arquivo do modelo treinado `credit_model.pkl` **não está incluído neste repositório** devido ao seu tamanho.
+## 🛠️ Tecnologias e Ferramentas Utilizadas
 
-Para rodar a API localmente, faça o download manual do arquivo do modelo neste link:
+- **Linguagem:** Python  
+- **Bibliotecas de Análise:** Pandas, NumPy  
+- **Visualização de Dados:** Matplotlib, Seaborn  
+- **Modelagem Preditiva:** Scikit-learn  
+- **Ambiente:** Google Colab / Jupyter Notebook
 
-> [Link para download do modelo credit_model.pkl] (adicione aqui o link do Google Drive ou outra fonte)
+## 🔍 Etapas do Projeto
 
-Depois, coloque o arquivo na raiz do projeto.
+1. **Entendimento do Negócio e dos Dados**  
+   - Definição do problema  
+   - Análise exploratória dos dados (EDA)  
 
-## 🚀 Como rodar a API localmente
+2. **Pré-processamento dos Dados**  
+   - Tratamento de dados faltantes  
+   - Codificação de variáveis categóricas  
+   - Padronização e normalização  
+
+3. **Modelagem Preditiva**  
+   - Teste de diferentes algoritmos (Árvore de Decisão, Random Forest, Regressão Logística, etc.)  
+   - Avaliação de desempenho com métricas como Acurácia, Precision, Recall, F1-Score  
+
+4. **Conclusão e Insights**  
+   - Análise dos resultados obtidos  
+   - Pontos de melhoria e próximos passos  
+
+## 📈 Resultado
+
+O modelo apresentou desempenho satisfatório na classificação dos clientes entre "aprovado" ou "não aprovado" para crédito. Melhorias podem ser feitas utilizando técnicas mais avançadas, como balanceamento de dados, engenharia de variáveis e ajuste de hiperparâmetros.
+
+## 🚀 Como Executar o Projeto
 
 1. Clone o repositório:
 
 ```bash
 git clone https://github.com/robertaNicolle/Projeto-Previsao_de_Credito.git
-cd Projeto-Previsao_de_Credito
+Instale as dependências (opcional se usar Colab):
+
+bash
+Copy
+Edit
+pip install -r requirements.txt
+Execute o notebook:
+
+Acesse o arquivo .ipynb pelo Google Colab ou Jupyter Notebook.
+
+💡 Melhorias Futuras
+Aplicar técnicas de balanceamento (SMOTE, Under/Over Sampling)
+
+Testar modelos baseados em Gradient Boosting (XGBoost, LightGBM, CatBoost)
+
+Realizar o deploy da solução (API ou Dashboard)
+
+Implementar monitoramento do modelo em produção
+
+🧠 Aprendizados
+Ao longo deste projeto, aprofundei meus conhecimentos em:
+
+Limpeza e tratamento de dados
+
+Engenharia de variáveis
+
+Técnicas de Machine Learning supervisionado
+
+Avaliação e interpretação de modelos
+
+👩‍💻 Sobre Mim
+Sou Roberta Nicolle, estudante de Ciência de Dados, apaixonada por resolver problemas utilizando dados e inteligência artificial.
+
+🔗 LinkedIn: https://www.linkedin.com/in/roberta-soares-dev/
+
+🧠 GitHub: https://github.com/robertaNicolle
+
+📫 Contato: robertasoares.dev@gmail.com
 
 
